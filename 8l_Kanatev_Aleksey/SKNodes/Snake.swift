@@ -14,6 +14,7 @@ class Snake: SKShapeNode {
     var body = [SnakeBodyPart]()
     let moveSpeed = 125.0
     var angel: CGFloat = 0.0
+    //
     
     convenience init(atPoint point: CGPoint) {
         self.init()
